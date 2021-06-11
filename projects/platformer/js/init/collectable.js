@@ -38,9 +38,9 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         // example: 
-        createCollectable(type.grace, 297,196,5,43);
-        createCollectable(type.kennedi, 764, 14,4, 679);
-        createCollectable(type.game,  846, 20,8,55);
+        createCollectable(type.grace, 297,16,5);
+        createCollectable(type.kennedi, 764, 114,4);
+        createCollectable(type.game,  846, 20,8);
         createCollectable(type.steve, 250, 170, 4);
         
         
