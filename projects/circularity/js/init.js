@@ -23,25 +23,24 @@ var init = function (window) {
 
         var circle;
         var circles = [];
+    
 
         // TODO 2 : Create a function that draws a circle 
-        function drawcircle(){
+        function drawCircle(){
             circle = draw.randomCircleInArea(canvas, true, true, '#999', 2);
-          physikz.addRandomVelocity(circle, canvas);
-        view.addChild(circle);
-         circles.push(circle);
+            physikz.addRandomVelocity(circle, canvas);
+            view.addChild(circle);
+            circles.push(circle);
         }
         
-
+      
 
         // TODO 3 / 8 : Call the drawCircle() function 
-
-         drawCircle();
-         drawCircle();
-         drawCircle();
-         drawCircle();
-         drawCircle();
-
+            drawCircle();
+            drawCircle();
+            drawCircle();
+            drawCircle();
+            drawCircle();
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -54,12 +53,22 @@ var init = function (window) {
         function update() {
             // TODO 4 : Update the circle's position //
 
+            physikz.updatePosition();
+            physikz.updatePosition();
+            physikz.updatePosition();
+            physikz.updatePosition();
+            physikz.updatePosition();
+
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            
 
+
+
             // TODO 9 : Iterate over the array
            
+
+
             
         }
     
